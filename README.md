@@ -1,2 +1,2 @@
 # projects
-Projects developted by myself for my own studies and work
+Os projetos das grandes marcas estão aqui

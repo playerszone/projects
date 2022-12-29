@@ -1,0 +1,73 @@
+/* NEW -- POSITION ABSOLUTE */
+:root{
+  --cor4: #33241F;
+  --cor3: #443129;
+  --cor2: #593E36;
+  --cor1: #E2CB9F;
+  --cor001: #ffc75f;
+  --cor0: #FFFFFFBB;
+}
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ header{
+  padding: 5px;
+   color: #443129;
+   background-color:  #FFFFFF;
+   width: 100%;
+   height: 105px;
+   text-align: center; 
+   position: sticky;
+   top: 0;  
+ }
+ #navigation{
+   float: right;
+   list-style: none; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-end;
+ }
+
+ header a{
+  margin-left: 5px;
+   text-decoration: none;
+   color:  #443129;
+   float: right;
+ }
+ header a:hover{
+   text-decoration: underline;
+   color:  #443129;
+ }
+ #menu{
+  margin: auto;
+  width: 90%;
+  height: fit-content; 
+  text-align: center;
+  border-bottom:  3px dashed #ebc77e;
+ }
+ iframe{
+  max-width: 800px !important;
+  margin: auto !important;
+  width: calc(100% - 15px) !important;
+ }
+ .cardapio{
+white-space: pre-line;
+ text-align: center;
+ }
+ #text_new_in{
+  text-indent: 17px;
+    padding: 5px;
+    text-align: justify;
+ }
+ ::-webkit-scrollbar{
+  width: 15px;
+    background-color: beige;
+ }
+ ::-webkit-scrollbar-thumb{
+  background-color: #E2CB9F;
+
+ }
